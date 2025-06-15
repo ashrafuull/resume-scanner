@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
