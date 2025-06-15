@@ -63,5 +63,5 @@ def scan():
 
     return render_template_string(HTML_TEMPLATE)
 
-if _name_ == '_main_':
+if _name_ == '__main__':
     app.run(debug=True)
